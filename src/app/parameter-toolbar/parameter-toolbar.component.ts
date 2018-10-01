@@ -65,7 +65,7 @@ export class ParameterToolbarComponent implements OnInit {
     );
   }
 
-  displayStationName(station?: Station): string | undefined {
+  displayStationName(station?: Station): string {
     return station ? station.name : undefined;
   }
 }
