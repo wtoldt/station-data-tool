@@ -1,0 +1,66 @@
+<div class="row my-2">
+  <div class="col">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Show/Hide Columns
+          </mat-panel-title>
+          <mat-panel-description>
+            <p class="truncate-text">{{ displaySelectedColumns() }}</p>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="row">
+
+          <div class="col-sm-3 col-md-2 mb-2">
+            <mat-radio-group [value]="_metric" (change)="metricChange.emit($event.value)" clsas="mb-2">
+              <mat-radio-button [value]="true" color="primary" class="mr-3">Metric</mat-radio-button><br />
+              <mat-radio-button [value]="false" color="primary" >Standard</mat-radio-button>
+            </mat-radio-group>
+            <br />
+            <button mat-stroked-button color="primary">All Data Types</button>
+            <br />
+            <button mat-stroked-button color="primary"(click)="agApi.sizeColumnsToFit()">Autosize Columns</button>
+          </div>
+
+          <div class="col">
+            <mat-chip-list>
+              <mat-chip *ngFor="let dt of defaultStationDataTypes"
+                  color="primary" [matTooltip]="dt.name" matTooltipShowDelay="250"
+                  [selected]="dt.selected"
+                  (click)="toggleSelectedStationColumn(dt)"
+                  (dblclick)="logit(dt)">
+                {{ dt.id }}
+              </mat-chip>
+            </mat-chip-list>
+            <mat-divider class="my-2"></mat-divider>
+            <mat-chip-list>
+                <mat-chip *ngFor="let dt of ghcndCoreDataTypes"
+                color="primary" [matTooltip]="dt.name" matTooltipShowDelay="250"
+                [selected]="dt.selected"
+                (click)="toggleSelectedDatasetColumn(dt)"
+                (dblclick)="logit(dt)">
+              {{ dt.id }}
+            </mat-chip>
+            </mat-chip-list>
+          </div>
+        </div>
+      </mat-expansion-panel>
+  </div>
+</div>
+
+<div class="row" *ngIf="_columns">
+  <div class="col">
+    <ag-grid-angular
+        class="ag-theme-balham"
+        [enableSorting]="true"
+        [enableFilter]="true"
+        [rowData]="data"
+        [columnDefs]="_columns"
+        [pagination]="true"
+        (gridReady)="onGridReady($event)"
+        enableColResize="true"
+        domLayout="autoHeight"
+        >
+    </ag-grid-angular>
+  </div>
+</div>

@@ -1,0 +1,3842 @@
+[
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "time",
+        "name": "time of observation",
+        "units": "minutes since 1970-01-01 00:00:00Z",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "station_name",
+        "name": "station identification code",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "station_info",
+        "name": "name of the station",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "precipitation_flux",
+        "name": "Long-term averages of seasonal precipitation totals forDecember-February",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "lon",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION longitude coordinate",
+        "units": "degrees_east",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "lat",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION latitude coordinate",
+        "units": "degrees_north",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "alt",
+        "name": "the elevation of a geophysical point of observation relative to Mean Sea Level ",
+        "units": "meters",
+        "metricUnits": "meters",
+        "standardUnits": "feet"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-NORMAL",
+        "name": "Long-term averages of autumn minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH070",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH060",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH050",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH040",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH020",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH010",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMIN-AVGNDS-LSTH000",
+        "name": "Long-term average number of days per autumn where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-NORMAL",
+        "name": "Long-term averages of autumn maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per autumn where tmax is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-GRTH100",
+        "name": "Long-term average number of days per autumn where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-GRTH090",
+        "name": "Long-term average number of days per autumn where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-GRTH080",
+        "name": "Long-term average number of days per autumn where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-GRTH070",
+        "name": "Long-term average number of days per autumn where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-GRTH060",
+        "name": "Long-term average number of days per autumn where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-GRTH050",
+        "name": "Long-term average number of days per autumn where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TMAX-AVGNDS-GRTH040",
+        "name": "Long-term average number of days per autumn where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-TAVG-NORMAL",
+        "name": "Long-term averages of autumn average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNWD-AVGNDS-GE010WI",
+        "name": "Long-term averages of number of days during September-November with snow depth ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNWD-AVGNDS-GE005WI",
+        "name": "Long-term averages of number of days during September-November with snow depth ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNWD-AVGNDS-GE003WI",
+        "name": "Long-term averages of number of days during September-November with snow depth ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNWD-AVGNDS-GE001WI",
+        "name": "Long-term averages of number of days during September-November with snow depth ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNOW-NORMAL",
+        "name": "Long-term averages of seasonal snowfall totals for September-November",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNOW-AVGNDS-GE100TI",
+        "name": "Long-term averages of number of days during September-November with snowfall >=",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNOW-AVGNDS-GE050TI",
+        "name": "Long-term averages of number of days during September-November with snowfall >=",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNOW-AVGNDS-GE030TI",
+        "name": "Long-term averages of number of days during September-November with snowfall >=",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNOW-AVGNDS-GE010TI",
+        "name": "Long-term averages of number of days during September-November with snowfall >=",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-SNOW-AVGNDS-GE001TI",
+        "name": "Long-term averages of number of days during September-November with snowfall >=",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-PRCP-NORMAL",
+        "name": "Long-term averages of seasonal precipitation totals for September-November",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-PRCP-AVGNDS-GE100HI",
+        "name": "Long-term averages of number of days during September-November with precipitati",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-PRCP-AVGNDS-GE050HI",
+        "name": "Long-term averages of number of days during September-November with precipitati",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-PRCP-AVGNDS-GE010HI",
+        "name": "Long-term averages of number of days during September-November with precipitati",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-PRCP-AVGNDS-GE001HI",
+        "name": "Long-term averages of number of days during September-November with precipitati",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-HTDD-NORMAL",
+        "name": "Long-term averages of autumn heating degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-HTDD-BASE60",
+        "name": "Long-term averages of autumn heating degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-HTDD-BASE57",
+        "name": "Long-term averages of autumn heating degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-HTDD-BASE55",
+        "name": "Long-term averages of autumn heating degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-HTDD-BASE50",
+        "name": "Long-term averages of autumn heating degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-HTDD-BASE45",
+        "name": "Long-term averages of autumn heating degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-HTDD-BASE40",
+        "name": "Long-term averages of autumn heating degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-TB5086",
+        "name": "Long-term averages of summer growing degree days with truncated bases 50F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-TB4886",
+        "name": "Long-term averages of summer growing degree days with truncated bases 48F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE72",
+        "name": "Long-term averages of fall growing degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE70",
+        "name": "Long-term averages of fall growing degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE65",
+        "name": "Long-term averages of fall growing degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE60",
+        "name": "Long-term averages of fall growing degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE57",
+        "name": "Long-term averages of fall growing degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE55",
+        "name": "Long-term averages of fall growing degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE50",
+        "name": "Long-term averages of fall growing degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE45",
+        "name": "Long-term averages of fall growing degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-GRDD-BASE40",
+        "name": "Long-term averages of fall growing degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-DUTR-NORMAL",
+        "name": "Long-term averages of autumn diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-NORMAL",
+        "name": "Long-term averages of autumn cooling degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-BASE72",
+        "name": "Long-term averages of autumn cooling degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-BASE70",
+        "name": "Long-term averages of autumn cooling degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-BASE60",
+        "name": "Long-term averages of autumn cooling degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-BASE57",
+        "name": "Long-term averages of autumn cooling degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-BASE55",
+        "name": "Long-term averages of autumn cooling degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-BASE50",
+        "name": "Long-term averages of autumn cooling degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "SON-CLDD-BASE45",
+        "name": "Long-term averages of autumn cooling degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-NORMAL",
+        "name": "Long-term averages of spring minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH070",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH060",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH050",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH040",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH020",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH010",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMIN-AVGNDS-LSTH000",
+        "name": "Long-term average number of days per spring where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-NORMAL",
+        "name": "Long-term averages of spring maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per spring where tmax is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-GRTH100",
+        "name": "Long-term average number of days per spring where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-GRTH090",
+        "name": "Long-term average number of days per spring where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-GRTH080",
+        "name": "Long-term average number of days per spring where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-GRTH070",
+        "name": "Long-term average number of days per spring where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-GRTH060",
+        "name": "Long-term average number of days per spring where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-GRTH050",
+        "name": "Long-term average number of days per spring where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TMAX-AVGNDS-GRTH040",
+        "name": "Long-term average number of days per spring where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-TAVG-NORMAL",
+        "name": "Long-term averages of spring average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNWD-AVGNDS-GE010WI",
+        "name": "Long-term averages of number of days during March-May with snow depth >= 10 inc",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNWD-AVGNDS-GE005WI",
+        "name": "Long-term averages of number of days during March-May with snow depth >= 5 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNWD-AVGNDS-GE003WI",
+        "name": "Long-term averages of number of days during March-May with snow depth >= 3 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNWD-AVGNDS-GE001WI",
+        "name": "Long-term averages of number of days during March-May with snow depth >= 1 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNOW-NORMAL",
+        "name": "Long-term averages of seasonal snowfall totals for March-May",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNOW-AVGNDS-GE100TI",
+        "name": "Long-term averages of number of days during March-May with snowfall >= 10.0 inc",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNOW-AVGNDS-GE050TI",
+        "name": "Long-term averages of number of days during March-May with snowfall >= 5.0 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNOW-AVGNDS-GE030TI",
+        "name": "Long-term averages of number of days during March-May with snowfall >= 3.0 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNOW-AVGNDS-GE010TI",
+        "name": "Long-term averages of number of days during March-May with snowfall >= 1.0 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-SNOW-AVGNDS-GE001TI",
+        "name": "Long-term averages of number of days during March-May with snowfall >= 0.1 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-PRCP-NORMAL",
+        "name": "Long-term averages of seasonal precipitation totals for March-May",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-PRCP-AVGNDS-GE100HI",
+        "name": "Long-term averages of number of days during March-May with precipitation >= 1.0",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-PRCP-AVGNDS-GE050HI",
+        "name": "Long-term averages of number of days during March-May with precipitation >= 0.5",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-PRCP-AVGNDS-GE010HI",
+        "name": "Long-term averages of number of days during March-May with precipitation >= a 0",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-PRCP-AVGNDS-GE001HI",
+        "name": "Long-term averages of number of days during March-May with precipitation >= 0.0",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-HTDD-NORMAL",
+        "name": "Long-term averages of spring heating degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-HTDD-BASE60",
+        "name": "Long-term averages of spring heating degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-HTDD-BASE57",
+        "name": "Long-term averages of spring heating degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-HTDD-BASE55",
+        "name": "Long-term averages of spring heating degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-HTDD-BASE50",
+        "name": "Long-term averages of spring heating degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-HTDD-BASE45",
+        "name": "Long-term averages of spring heating degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-HTDD-BASE40",
+        "name": "Long-term averages of spring heating degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-TB5086",
+        "name": "Long-term averages of summer growing degree days with truncated bases 50F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-TB4886",
+        "name": "Long-term averages of summer growing degree days with truncated bases 48F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE72",
+        "name": "Long-term averages of spring growing degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE70",
+        "name": "Long-term averages of spring growing degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE65",
+        "name": "Long-term averages of spring growing degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE60",
+        "name": "Long-term averages of spring growing degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE57",
+        "name": "Long-term averages of spring growing degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE55",
+        "name": "Long-term averages of spring growing degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE50",
+        "name": "Long-term averages of spring growing degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE45",
+        "name": "Long-term averages of spring growing degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-GRDD-BASE40",
+        "name": "Long-term averages of spring growing degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-DUTR-NORMAL",
+        "name": "Long-term averages of spring diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-NORMAL",
+        "name": "Long-term averages of spring cooling degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-BASE72",
+        "name": "Long-term averages of spring cooling degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-BASE70",
+        "name": "Long-term averages of spring cooling degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-BASE60",
+        "name": "Long-term averages of spring cooling degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-BASE57",
+        "name": "Long-term averages of spring cooling degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-BASE55",
+        "name": "Long-term averages of spring cooling degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-BASE50",
+        "name": "Long-term averages of spring cooling degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "MAM-CLDD-BASE45",
+        "name": "Long-term averages of spring cooling degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-NORMAL",
+        "name": "Long-term averages of summer minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH070",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH060",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH050",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH040",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH020",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH010",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMIN-AVGNDS-LSTH000",
+        "name": "Long-term average number of days per summer where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-NORMAL",
+        "name": "Long-term averages of summer maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per summer where tmax is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-GRTH100",
+        "name": "Long-term average number of days per summer where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-GRTH090",
+        "name": "Long-term average number of days per summer where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-GRTH080",
+        "name": "Long-term average number of days per summer where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-GRTH070",
+        "name": "Long-term average number of days per summer where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-GRTH060",
+        "name": "Long-term average number of days per summer where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-GRTH050",
+        "name": "Long-term average number of days per summer where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TMAX-AVGNDS-GRTH040",
+        "name": "Long-term average number of days per summer where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-TAVG-NORMAL",
+        "name": "Long-term averages of summer average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNWD-AVGNDS-GE010WI",
+        "name": "Long-term averages of number of days during June-August with snow depth >= 10 i",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNWD-AVGNDS-GE005WI",
+        "name": "Long-term averages of number of days during June-August with snow depth >= 5 in",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNWD-AVGNDS-GE003WI",
+        "name": "Long-term averages of number of days during June-August with snow depth >= 3 in",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNWD-AVGNDS-GE001WI",
+        "name": "Long-term averages of number of days during June-August with snow depth >= 1 in",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNOW-NORMAL",
+        "name": "Long-term averages of seasonal snowfall totals for June-August",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNOW-AVGNDS-GE100TI",
+        "name": "Long-term averages of number of days during June-August with snowfall >= 10.0 i",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNOW-AVGNDS-GE050TI",
+        "name": "Long-term averages of number of days during June-August with snowfall >= 5.0 in",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNOW-AVGNDS-GE030TI",
+        "name": "Long-term averages of number of days during June-August with snowfall >= 3.0 in",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNOW-AVGNDS-GE010TI",
+        "name": "Long-term averages of number of days during June-August with snowfall >= 1.0 in",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-SNOW-AVGNDS-GE001TI",
+        "name": "Long-term averages of number of days during June-August with snowfall >= 0.1 in",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-PRCP-NORMAL",
+        "name": "Long-term averages of seasonal precipitation totals for June-August",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-PRCP-AVGNDS-GE100HI",
+        "name": "Long-term averages of number of days during June-August with precipitation >= 1",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-PRCP-AVGNDS-GE050HI",
+        "name": "Long-term averages of number of days during June-August with precipitation >= 0",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-PRCP-AVGNDS-GE010HI",
+        "name": "Long-term averages of number of days during June-August with precipitation >= 0",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-PRCP-AVGNDS-GE001HI",
+        "name": "Long-term averages of number of days during June-August with precipitation >= 0",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-HTDD-NORMAL",
+        "name": "Long-term averages of summer heating degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-HTDD-BASE60",
+        "name": "Long-term averages of summer heating degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-HTDD-BASE57",
+        "name": "Long-term averages of summer heating degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-HTDD-BASE55",
+        "name": "Long-term averages of summer heating degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-HTDD-BASE50",
+        "name": "Long-term averages of summer heating degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-HTDD-BASE45",
+        "name": "Long-term averages of summer heating degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-HTDD-BASE40",
+        "name": "Long-term averages of summer heating degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-TB5086",
+        "name": "Long-term averages of summer growing degree days with truncated bases 50F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-TB4886",
+        "name": "Long-term averages of summer growing degree days with truncated bases 48F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE72",
+        "name": "Long-term averages of summer growing degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE70",
+        "name": "Long-term averages of summer growing degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE65",
+        "name": "Long-term averages of summer growing degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE60",
+        "name": "Long-term averages of summer growing degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE57",
+        "name": "Long-term averages of summer growing degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE55",
+        "name": "Long-term averages of summer growing degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE50",
+        "name": "Long-term averages of summer growing degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE45",
+        "name": "Long-term averages of summer growing degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-GRDD-BASE40",
+        "name": "Long-term averages of summer growing degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-DUTR-NORMAL",
+        "name": "Long-term averages of summer diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-NORMAL",
+        "name": "Long-term averages of summer cooling degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-BASE72",
+        "name": "Long-term averages of summer cooling degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-BASE70",
+        "name": "Long-term averages of summer cooling degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-BASE60",
+        "name": "Long-term averages of summer cooling degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-BASE57",
+        "name": "Long-term averages of summer cooling degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-BASE55",
+        "name": "Long-term averages of summer cooling degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-BASE50",
+        "name": "Long-term averages of summer cooling degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "JJA-CLDD-BASE45",
+        "name": "Long-term averages of summer cooling degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-NORMAL",
+        "name": "Long-term averages of winter minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH070",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH060",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH050",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH040",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH020",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH010",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMIN-AVGNDS-LSTH000",
+        "name": "Long-term average number of days per winter where tmin is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-NORMAL",
+        "name": "Long-term averages of winter maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per winter where tmax is less than or equal to",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-GRTH100",
+        "name": "Long-term average number of days per winter where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-GRTH090",
+        "name": "Long-term average number of days per winter where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-GRTH080",
+        "name": "Long-term average number of days per winter where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-GRTH070",
+        "name": "Long-term average number of days per winter where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-GRTH060",
+        "name": "Long-term average number of days per winter where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-GRTH050",
+        "name": "Long-term average number of days per winter where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TMAX-AVGNDS-GRTH040",
+        "name": "Long-term average number of days per winter where tmax is greater than or equal",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-TAVG-NORMAL",
+        "name": "Long-term averages of winter average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNWD-AVGNDS-GE010WI",
+        "name": "Long-term averages of number of days during December-February with snow depth >",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNWD-AVGNDS-GE005WI",
+        "name": "Long-term averages of number of days during December-February with snow depth >",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNWD-AVGNDS-GE003WI",
+        "name": "Long-term averages of number of days during December-February with snow depth >",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNWD-AVGNDS-GE001WI",
+        "name": "Long-term averages of number of days during December-February with snow depth >",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNOW-NORMAL",
+        "name": "Long-term averages of seasonal snowfall totals for December-February",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNOW-AVGNDS-GE100TI",
+        "name": "Long-term averages of number of days during December-February with snowfall >= ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNOW-AVGNDS-GE050TI",
+        "name": "Long-term averages of number of days during December-February with snowfall >= ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNOW-AVGNDS-GE030TI",
+        "name": "Long-term averages of number of days during December-February with snowfall >= ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNOW-AVGNDS-GE010TI",
+        "name": "Long-term averages of number of days during December-February with snowfall >= ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-SNOW-AVGNDS-GE001TI",
+        "name": "Long-term averages of number of days during December-February with snowfall >= ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-PRCP-NORMAL",
+        "name": "Long-term averages of seasonal precipitation totals for December-February",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-PRCP-AVGNDS-GE100HI",
+        "name": "Long-term averages of number of days during December-February with precipitatio",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-PRCP-AVGNDS-GE050HI",
+        "name": "Long-term averages of number of days during December-February with precipitatio",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-PRCP-AVGNDS-GE010HI",
+        "name": "Long-term averages of number of days during December-February with precipitatio",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-PRCP-AVGNDS-GE001HI",
+        "name": "Long-term averages of number of days during December-February with precipitatio",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-HTDD-NORMAL",
+        "name": "Long-term averages of winter heating degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-HTDD-BASE60",
+        "name": "Long-term averages of winter heating degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-HTDD-BASE57",
+        "name": "Long-term averages of winter heating degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-HTDD-BASE55",
+        "name": "Long-term averages of winter heating degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-HTDD-BASE50",
+        "name": "Long-term averages of winter heating degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-HTDD-BASE45",
+        "name": "Long-term averages of winter heating degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-HTDD-BASE40",
+        "name": "Long-term averages of winter heating degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-TB5086",
+        "name": "Long-term averages of winter growing degree days with truncated bases 50F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-TB4886",
+        "name": "Long-term averages of winter growing degree days with truncated bases 48F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE72",
+        "name": "Long-term averages of winter growing degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE70",
+        "name": "Long-term averages of winter growing degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE65",
+        "name": "Long-term averages of winter growing degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE60",
+        "name": "Long-term averages of winter growing degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE57",
+        "name": "Long-term averages of winter growing degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE55",
+        "name": "Long-term averages of winter growing degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE50",
+        "name": "Long-term averages of winter growing degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE45",
+        "name": "Long-term averages of winter growing degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-GRDD-BASE40",
+        "name": "Long-term averages of winter growing degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-DUTR-NORMAL",
+        "name": "Long-term averages of winter diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-NORMAL",
+        "name": "Long-term averages of winter cooling degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-BASE72",
+        "name": "Long-term averages of winter cooling degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-BASE70",
+        "name": "Long-term averages of winter cooling degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-BASE60",
+        "name": "Long-term averages of winter cooling degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-BASE57",
+        "name": "Long-term averages of winter cooling degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-BASE55",
+        "name": "Long-term averages of winter cooling degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-BASE50",
+        "name": "Long-term averages of winter cooling degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "DJF-CLDD-BASE45",
+        "name": "Long-term averages of winter cooling degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBOCC-LSTH036",
+        "name": "probability of 36F or below at least once in the year",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBOCC-LSTH032",
+        "name": "probability of 32F or below at least once in the year",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBOCC-LSTH028",
+        "name": "probability of 28F or below at least once in the year",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBOCC-LSTH024",
+        "name": "probability of 24F or below at least once in the year",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBOCC-LSTH020",
+        "name": "probability of 20F or below at least once in the year",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBOCC-LSTH016",
+        "name": "probability of 16F or below at least once in the year",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP90",
+        "name": "90% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP80",
+        "name": "80% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP70",
+        "name": "70% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP60",
+        "name": "60% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP50",
+        "name": "50% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP40",
+        "name": "40% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP30",
+        "name": "30% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP20",
+        "name": "20% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T36FP10",
+        "name": "10% probability date of last 36F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP90",
+        "name": "90% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP80",
+        "name": "80% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP70",
+        "name": "70% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP60",
+        "name": "60% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP50",
+        "name": "50% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP40",
+        "name": "40% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP30",
+        "name": "30% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP20",
+        "name": "20% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T32FP10",
+        "name": "10% probability date of last 32F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP90",
+        "name": "90% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP80",
+        "name": "80% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP70",
+        "name": "70% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP60",
+        "name": "60% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP50",
+        "name": "50% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP40",
+        "name": "40% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP30",
+        "name": "30% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP20",
+        "name": "20% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T28FP10",
+        "name": "10% probability date of last 28F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP90",
+        "name": "90% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP80",
+        "name": "80% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP70",
+        "name": "70% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP60",
+        "name": "60% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP50",
+        "name": "50% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP40",
+        "name": "40% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP30",
+        "name": "30% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP20",
+        "name": "20% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T24FP10",
+        "name": "10% probability date of last 24F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP90",
+        "name": "90% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP80",
+        "name": "80% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP70",
+        "name": "70% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP60",
+        "name": "60% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP50",
+        "name": "50% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP40",
+        "name": "40% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP30",
+        "name": "30% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP20",
+        "name": "20% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T20FP10",
+        "name": "10% probability date of last 20F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP90",
+        "name": "90% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP80",
+        "name": "80% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP70",
+        "name": "70% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP60",
+        "name": "60% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP50",
+        "name": "50% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP40",
+        "name": "40% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP30",
+        "name": "30% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP20",
+        "name": "20% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBLST-T16FP10",
+        "name": "10% probability date of last 16F occurrence or later",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP90",
+        "name": "90% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP80",
+        "name": "80% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP70",
+        "name": "70% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP60",
+        "name": "60% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP50",
+        "name": "50% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP40",
+        "name": "40% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP30",
+        "name": "30% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP20",
+        "name": "20% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T36FP10",
+        "name": "10% probability of 36F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP90",
+        "name": "90% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP80",
+        "name": "80% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP70",
+        "name": "70% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP60",
+        "name": "60% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP50",
+        "name": "50% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP40",
+        "name": "40% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP30",
+        "name": "30% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP20",
+        "name": "20% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T32FP10",
+        "name": "10% probability of 32F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP90",
+        "name": "90% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP80",
+        "name": "80% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP70",
+        "name": "70% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP60",
+        "name": "60% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP50",
+        "name": "50% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP40",
+        "name": "40% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP30",
+        "name": "30% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP20",
+        "name": "20% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T28FP10",
+        "name": "10% probability of 28F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP90",
+        "name": "90% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP80",
+        "name": "80% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP70",
+        "name": "70% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP60",
+        "name": "60% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP50",
+        "name": "50% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP40",
+        "name": "40% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP30",
+        "name": "30% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP20",
+        "name": "20% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T24FP10",
+        "name": "10% probability of 24F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP90",
+        "name": "90% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP80",
+        "name": "80% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP70",
+        "name": "70% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP60",
+        "name": "60% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP50",
+        "name": "50% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP40",
+        "name": "40% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP30",
+        "name": "30% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP20",
+        "name": "20% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T20FP10",
+        "name": "10% probability of 20F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP90",
+        "name": "90% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP80",
+        "name": "80% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP70",
+        "name": "70% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP60",
+        "name": "60% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP50",
+        "name": "50% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP40",
+        "name": "40% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP30",
+        "name": "30% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP20",
+        "name": "20% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBGSL-T16FP10",
+        "name": "10% probability of 16F growing season length or longer",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP90",
+        "name": "90% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP80",
+        "name": "80% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP70",
+        "name": "70% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP60",
+        "name": "60% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP50",
+        "name": "50% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP40",
+        "name": "40% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP30",
+        "name": "30% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP20",
+        "name": "20% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T36FP10",
+        "name": "10% probability date of first 36F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP90",
+        "name": "90% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP80",
+        "name": "80% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP70",
+        "name": "70% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP60",
+        "name": "60% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP50",
+        "name": "50% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP40",
+        "name": "40% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP30",
+        "name": "30% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP20",
+        "name": "20% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T32FP10",
+        "name": "10% probability date of first 32F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP90",
+        "name": "90% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP80",
+        "name": "80% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP70",
+        "name": "70% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP60",
+        "name": "60% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP50",
+        "name": "50% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP40",
+        "name": "40% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP30",
+        "name": "30% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP20",
+        "name": "20% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T28FP10",
+        "name": "10% probability date of first 28F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP90",
+        "name": "90% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP80",
+        "name": "80% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP70",
+        "name": "70% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP60",
+        "name": "60% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP50",
+        "name": "50% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP40",
+        "name": "40% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP30",
+        "name": "30% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP20",
+        "name": "20% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T24FP10",
+        "name": "10% probability date of first 24F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP90",
+        "name": "90% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP80",
+        "name": "80% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP70",
+        "name": "70% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP60",
+        "name": "60% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP50",
+        "name": "50% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP40",
+        "name": "40% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP30",
+        "name": "30% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP20",
+        "name": "20% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T20FP10",
+        "name": "10% probability date of first 20F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP90",
+        "name": "90% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP80",
+        "name": "80% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP70",
+        "name": "70% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP60",
+        "name": "60% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP50",
+        "name": "50% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP40",
+        "name": "40% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP30",
+        "name": "30% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP20",
+        "name": "20% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-PRBFST-T16FP10",
+        "name": "10% probability date of first 16F occurrence or earlier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-NORMAL",
+        "name": "Long-term averages of annual minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH070",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 7",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH060",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 6",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH050",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 5",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH040",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 4",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 3",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH020",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 2",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH010",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 1",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMIN-AVGNDS-LSTH000",
+        "name": "Long-term average number of days per year where tmin is less than or equal to 0F",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-NORMAL",
+        "name": "Long-term averages of annual maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per year where tmax is less than or equal to 3",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-GRTH100",
+        "name": "Long-term average number of days per year where tmax is greater than or equal t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-GRTH090",
+        "name": "Long-term average number of days per year where tmax is greater than or equal t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-GRTH080",
+        "name": "Long-term average number of days per year where tmax is greater than or equal t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-GRTH070",
+        "name": "Long-term average number of days per year where tmax is greater than or equal t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-GRTH060",
+        "name": "Long-term average number of days per year where tmax is greater than or equal t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-GRTH050",
+        "name": "Long-term average number of days per year where tmax is greater than or equal t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TMAX-AVGNDS-GRTH040",
+        "name": "Long-term average number of days per year where tmax is greater than or equal t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-TAVG-NORMAL",
+        "name": "Long-term averages of annual average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNWD-AVGNDS-GE010WI",
+        "name": "Long-term averages of number of days during the year with snow depth >=10 inches",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNWD-AVGNDS-GE005WI",
+        "name": "Long-term averages of number of days during the year with snow depth >=5 inches",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNWD-AVGNDS-GE003WI",
+        "name": "Long-term averages of number of days during the year with snow depth >= 3 inches",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNWD-AVGNDS-GE001WI",
+        "name": "Long-term averages of number of days during the year with snow depth >= 1 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNOW-NORMAL",
+        "name": "Long-term averages of annual snowfall totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNOW-AVGNDS-GE100TI",
+        "name": "Long-term averages of number of days during the year with snowfall >= 10.0 inch",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNOW-AVGNDS-GE050TI",
+        "name": "Long-term averages of number of days during the year with snowfall >= 5.0 inches",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNOW-AVGNDS-GE030TI",
+        "name": "Long-term averages of number of days during the year with snowfall >= 3.0 inches",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNOW-AVGNDS-GE010TI",
+        "name": "Long-term averages of number of days during the year with snowfall >= 1.0 inches",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-SNOW-AVGNDS-GE001TI",
+        "name": "Long-term averages of number of days during the year with snowfall >= 0.1 inches",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-PRCP-NORMAL",
+        "name": "Long-term averages of annual precipitation totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-PRCP-AVGNDS-GE100HI",
+        "name": "Long-term averages of number of days during the year with precipitation >= 1.00",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-PRCP-AVGNDS-GE050HI",
+        "name": "Long-term averages of number of days during the year with precipitation >= 0.50",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-PRCP-AVGNDS-GE010HI",
+        "name": "Long-term averages of number of days during the year with precipitation >= 0.10",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-PRCP-AVGNDS-GE001HI",
+        "name": "Long-term averages of number of days during the year with precipitation >= 0.01",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-HTDD-NORMAL",
+        "name": "Long-term averages of annual heating degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-HTDD-BASE60",
+        "name": "Long-term averages of annual heating degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-HTDD-BASE57",
+        "name": "Long-term averages of annual heating degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-HTDD-BASE55",
+        "name": "Long-term averages of annual heating degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-HTDD-BASE50",
+        "name": "Long-term averages of annual heating degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-HTDD-BASE45",
+        "name": "Long-term averages of annual heating degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-HTDD-BASE40",
+        "name": "Long-term averages of annual heating degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-TB5086",
+        "name": "Long-term averages of annual growing degree days with truncated bases 50F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-TB4886",
+        "name": "Long-term averages of annual growing degree days with truncated bases 48F and 8",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE72",
+        "name": "Long-term averages of annual growing degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE70",
+        "name": "Long-term averages of annual growing degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE65",
+        "name": "Long-term averages of annual growing degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE60",
+        "name": "Long-term averages of annual growing degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE57",
+        "name": "Long-term averages of annual growing degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE55",
+        "name": "Long-term averages of annual growing degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE50",
+        "name": "Long-term averages of annual growing degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE45",
+        "name": "Long-term averages of annual growing degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-GRDD-BASE40",
+        "name": "Long-term averages of annual growing degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-DUTR-NORMAL",
+        "name": "Long-term averages of annual diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-NORMAL",
+        "name": "Long-term averages of annual cooling degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-BASE72",
+        "name": "Long-term averages of annual cooling degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-BASE70",
+        "name": "Long-term averages of annual cooling degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-BASE60",
+        "name": "Long-term averages of annual cooling degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-BASE57",
+        "name": "Long-term averages of annual cooling degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-BASE55",
+        "name": "Long-term averages of annual cooling degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-BASE50",
+        "name": "Long-term averages of annual cooling degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-annualseasonal",
+        "id": "ANN-CLDD-BASE45",
+        "name": "Long-term averages of annual cooling degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    }
+]

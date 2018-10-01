@@ -1,0 +1,530 @@
+[
+    {
+        "datasetId": "normals-daily",
+        "id": "time",
+        "name": "time of observation",
+        "units": "minutes since 1970-01-01 00:00:00Z",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "station_name",
+        "name": "station identification code",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "station_info",
+        "name": "name of the station",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "lon",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION longitude coordinate",
+        "units": "degrees_east",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "lat",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION latitude coordinate",
+        "units": "degrees_north",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "alt",
+        "name": "the elevation of a geophysical point of observation relative to Mean Sea Level ",
+        "units": "meters",
+        "metricUnits": "meters",
+        "standardUnits": "feet"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "YTD-SNOW-NORMAL",
+        "name": "Long-term average year-to-date snowfall totals",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "YTD-PRCP-NORMAL",
+        "name": "Long-term average year-to-date precipitation totals",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "MTD-SNOW-NORMAL",
+        "name": "Long-term average month-to-date snowfall totals",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "MTD-PRCP-NORMAL",
+        "name": "Long-term average month-to-date precipitation totals",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-TMIN-STDDEV",
+        "name": "Long-term standard deviations of daily minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-TMIN-NORMAL",
+        "name": "Long-term averages of daily minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-TMAX-STDDEV",
+        "name": "Long-term standard deviations of daily maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-TMAX-NORMAL",
+        "name": "Long-term averages of daily maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-TAVG-STDDEV",
+        "name": "Long-term standard deviations of daily average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-TAVG-NORMAL",
+        "name": "Long-term averages of daily average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNWD-PCTALL-GE010WI",
+        "name": "Probability of snow depth >= 10 inches for 29-day windows centered on each day ",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNWD-PCTALL-GE005WI",
+        "name": "Probability of snow depth >= 5 inches for 29-day windows centered on each day o",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNWD-PCTALL-GE003WI",
+        "name": "Probability of snow depth >= 3 inches for 29-day windows centered on each day o",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNWD-PCTALL-GE001WI",
+        "name": "Probability of snow depth >= 1 inch for 29-day windows centered on each day of ",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNWD-75PCTL",
+        "name": "75th percentiles of daily nonzero snow depth for 29-day windows centered on eac",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNWD-50PCTL",
+        "name": "50th percentiles of daily nonzero snow depth for 29-day windows centered on eac",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNWD-25PCTL",
+        "name": "25th percentiles of daily nonzero snow depth for 29-day windows centered on eac",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-PCTALL-GE100TI",
+        "name": "Probability of snowfall >= 10 inches for 29-day windows centered on each day of",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-PCTALL-GE050TI",
+        "name": "Probability of snowfall >= 5.0 inches for 29-day windows centered on each day o",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-PCTALL-GE030TI",
+        "name": "Probability of snowfall >= 3.0 inches for 29-day windows centered on each day o",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-PCTALL-GE010TI",
+        "name": "Probability of snowfall >= 1.0 inches for 29-day windows centered on each day o",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-PCTALL-GE001TI",
+        "name": "Probability of snowfall >= 0.1 inches for 29-day windows centered on each day o",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-75PCTL",
+        "name": "75th percentiles of daily nonzero snowfall totals for 29-day windows centered o",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-50PCTL",
+        "name": "50th percentiles of daily nonzero snowfall totals for 29-day windows centered o",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-SNOW-25PCTL",
+        "name": "25th percentiles of daily nonzero snowfall totals for 29-day windows centered o",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-PRCP-PCTALL-GE100HI",
+        "name": "Probability of precipitation >= 1.00 inches for 29-day windows centered on each",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-PRCP-PCTALL-GE050HI",
+        "name": "Probability of precipitation >= 0.50 inches for 29-day windows centered on each",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-PRCP-PCTALL-GE010HI",
+        "name": "Probability of precipitation >= 0.10 inches for 29-day windows centered on each",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-PRCP-PCTALL-GE001HI",
+        "name": "Probability of precipitation >= 0.01 inches for 29-day windows centered on each",
+        "units": "percent",
+        "metricUnits": "percent",
+        "standardUnits": "percent"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-PRCP-75PCTL",
+        "name": "75th percentiles of daily nonzero precipitation totals for 29-day windows cente",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-PRCP-50PCTL",
+        "name": "50th percentiles of daily nonzero precipitation totals for 29-day windows cente",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-PRCP-25PCTL",
+        "name": "25th percentiles of daily nonzero precipitation totals for 29-day windows cente",
+        "units": "inches",
+        "metricUnits": "cm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-HTDD-NORMAL",
+        "name": "Long-term averages of daily heating degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-HTDD-BASE60",
+        "name": "Long-term averages of daily heating degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-HTDD-BASE57",
+        "name": "Long-term averages of daily heating degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-HTDD-BASE55",
+        "name": "Long-term averages of daily heating degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-HTDD-BASE50",
+        "name": "Long-term averages of daily heating degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-HTDD-BASE45",
+        "name": "Long-term averages of daily heating degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-HTDD-BASE40",
+        "name": "Long-term averages of daily heating degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-TB5086",
+        "name": "Long-term averages of daily growing degree days with truncated bases 50F and 86F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-TB4886",
+        "name": "Long-term averages of daily growing degree days with truncated bases 48F and 86F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE72",
+        "name": "Long-term averages of daily growing degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE70",
+        "name": "Long-term averages of daily growing degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE65",
+        "name": "Long-term averages of daily growing degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE60",
+        "name": "Long-term averages of daily growing degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE57",
+        "name": "Long-term averages of daily growing degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE55",
+        "name": "Long-term averages of daily growing degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE50",
+        "name": "Long-term averages of daily growing degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE45",
+        "name": "Long-term averages of daily growing degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-GRDD-BASE40",
+        "name": "Long-term averages of daily growing degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-DUTR-STDDEV",
+        "name": "Long-term standard deviations of daily diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-DUTR-NORMAL",
+        "name": "Long-term averages of daily diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-NORMAL",
+        "name": "Long-term averages of daily cooling degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-BASE72",
+        "name": "Long-term averages of daily cooling degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-BASE70",
+        "name": "Long-term averages of daily cooling degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-BASE60",
+        "name": "Long-term averages of daily cooling degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-BASE57",
+        "name": "Long-term averages of daily cooling degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-BASE55",
+        "name": "Long-term averages of daily cooling degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-BASE50",
+        "name": "Long-term averages of daily cooling degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-daily",
+        "id": "DLY-CLDD-BASE45",
+        "name": "Long-term averages of daily cooling degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    }
+]

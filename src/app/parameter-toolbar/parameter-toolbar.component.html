@@ -1,0 +1,60 @@
+<mat-toolbar color="secondary" class="py-4">
+  <mat-toolbar-row class="row" style="height: auto">
+
+    <div class="d-none d-xl-block col-xl-1"></div>
+
+    <div class="col-sm-4">
+      <mat-form-field class="w-100">
+        <input matInput placeholder="Stations" spellcheck="false" [formControl]="stationInput" [matAutocomplete]="stationAutocomplete">
+        <button mat-button *ngIf="stationInput.value" matSuffix mat-icon-button aria-label="Clear" (click)="stationInput.setValue('')">
+          <mat-icon>close</mat-icon>
+        </button>
+        <mat-autocomplete #stationAutocomplete="matAutocomplete" (optionSelected)="onOptionSelected($event)"
+            [displayWith]="displayStationName">
+          <mat-option *ngFor="let station of suggestedStations | async" [value]="station">
+            {{ station.name }}
+            <small class="ml-2">{{ station.id }}</small>
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+      <mat-chip-list>
+        <mat-chip *ngIf="_selectedStation" (removed)="selectedStationChange.emit(null)"
+            removable class="p-2">
+          <mat-icon class="m-0 mr-1" matChipRemove>cancel</mat-icon>
+          {{ _selectedStation.name }}
+        </mat-chip>
+      </mat-chip-list>
+    </div>
+
+    <div class="d-none d-xl-block col-xl-1"></div>
+    <div class="d-block d-sm-none mb-3 w-100"><hr /></div>
+
+    <div class="col-sm-4 col-xl-2">
+      <app-datepicker [date]="_selectedStartDate" (dateChange)="selectedStartDateChange.emit($event)"></app-datepicker>
+      <mat-chip-list>
+        <mat-chip *ngIf="_selectedStartDate" (removed)="selectedStartDateChange.emit(null)"
+            removable class="p-2">
+            <mat-icon class="m-0 mr-1" matChipRemove>cancel</mat-icon>
+          {{ _selectedStartDate?.format('YYYY-MM-DD') }}
+        </mat-chip>
+      </mat-chip-list>
+    </div>
+
+    <div class="d-none d-xl-block col-xl-1"></div>
+    <div class="d-block d-sm-none mb-3 w-100"><hr /></div>
+
+    <div class="col-sm-4 col-xl-2">
+      <app-datepicker [date]="_selectedEndDate" (dateChange)="selectedEndDateChange.emit($event)"></app-datepicker>
+      <mat-chip-list>
+        <mat-chip *ngIf="_selectedEndDate" (removed)="selectedEndDateChange.emit(null)"
+            removable class="p-2">
+            <mat-icon class="m-0 mr-1" matChipRemove>cancel</mat-icon>
+          {{ _selectedEndDate?.format('YYYY-MM-DD') }}
+        </mat-chip>
+      </mat-chip-list>
+    </div>
+
+      <div class="d-none d-xl-block col-xl-1"></div>
+
+  </mat-toolbar-row>
+</mat-toolbar>

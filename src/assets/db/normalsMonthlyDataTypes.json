@@ -1,0 +1,666 @@
+[
+    {
+        "datasetId": "normals-monthly",
+        "id": "time",
+        "name": "time of observation",
+        "units": "minutes since 1970-01-01 00:00:00Z",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "station_name",
+        "name": "station identification code",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "station_info",
+        "name": "name of the station",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "lon",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION longitude coordinate",
+        "units": "degrees_east",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "lat",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION latitude coordinate",
+        "units": "degrees_north",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "alt",
+        "name": "the elevation of a geophysical point of observation relative to Mean Sea Level ",
+        "units": "meters",
+        "metricUnits": "meters",
+        "standardUnits": "feet"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-STDDEV",
+        "name": "Long-term standard deviations of monthly minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-PRBOCC-LSTH036",
+        "name": "probability of 36F or below at least once in the month",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-PRBOCC-LSTH032",
+        "name": "probability of 32F or below at least once in the month",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-PRBOCC-LSTH028",
+        "name": "probability of 28F or below at least once in the month",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-PRBOCC-LSTH024",
+        "name": "probability of 24F or below at least once in the month",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-PRBOCC-LSTH020",
+        "name": "probability of 20F or below at least once in the month",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-PRBOCC-LSTH016",
+        "name": "probability of 16F or below at least once in the month",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-NORMAL",
+        "name": "Long-term averages of monthly minimum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH070",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH060",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH050",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH040",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH020",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH010",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMIN-AVGNDS-LSTH000",
+        "name": "Long-term average number of days per month where tmin is less than or equal to ",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-STDDEV",
+        "name": "Long-term standard deviations of monthly maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-NORMAL",
+        "name": "Long-term averages of monthly maximum temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-LSTH032",
+        "name": "Long-term average number of days per month where tmax is less than or equal to ",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-GRTH100",
+        "name": "Long-term average number of days per month where tmax is greater than or equal ",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-GRTH090",
+        "name": "Long-term average number of days per month where tmax is greater than or equal ",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-GRTH080",
+        "name": "Long-term average number of days per month where tmax is greater than or equal ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-GRTH070",
+        "name": "Long-term average number of days per month where tmax is greater than or equal ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-GRTH060",
+        "name": "Long-term average number of days per month where tmax is greater than or equal ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-GRTH050",
+        "name": "Long-term average number of days per month where tmax is greater than or equal ",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TMAX-AVGNDS-GRTH040",
+        "name": "Long-term average number of days per month where tmax is greater than or equal ",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TAVG-STDDEV",
+        "name": "Long-term standard deviations of monthly average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-TAVG-NORMAL",
+        "name": "Long-term averages of monthly average temperature",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNWD-AVGNDS-GE010WI",
+        "name": "Long-term averages of number of days per month with snow depth >= 10 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNWD-AVGNDS-GE005WI",
+        "name": "Long-term averages of number of days per month with snow depth >= 5 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNWD-AVGNDS-GE003WI",
+        "name": "Long-term averages of number of days per month with snow depth >= 3 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "day"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNWD-AVGNDS-GE001WI",
+        "name": "Long-term averages of number of days per month with snow depth >= 1 inch",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-NORMAL",
+        "name": "Long-term averages of monthly snowfall totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-AVGNDS-GE100TI",
+        "name": "Long-term averages of number of days per month with Snowfall >= 10.0 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-AVGNDS-GE050TI",
+        "name": "Long-term averages of number of days per month with Snowfall >= 5.0 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-AVGNDS-GE030TI",
+        "name": "Long-term averages of number of days per month with Snowfall >= 3.0 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-AVGNDS-GE010TI",
+        "name": "Long-term averages of number of days per month with Snowfall >= 1.0 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-AVGNDS-GE001TI",
+        "name": "Long-term averages of number of days per month with Snowfall >= 0.1 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-75PCTL",
+        "name": "75th percentiles of monthly snowfall totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-50PCTL",
+        "name": "50th percentiles of monthly snowfall totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-SNOW-25PCTL",
+        "name": "25th percentiles of monthly snowfall totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-NORMAL",
+        "name": "Long-term averages of monthly precipitation totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-AVGNDS-GE100HI",
+        "name": "Long-term averages of number of days per month with precipitation >= 1.00 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-AVGNDS-GE050HI",
+        "name": "Long-term averages of number of days per month with precipitation >= 0.50 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-AVGNDS-GE010HI",
+        "name": "Long-term averages of number of days per month with precipitation >= 0.10 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-AVGNDS-GE001HI",
+        "name": "Long-term averages of number of days per month with precipitation >= 0.01 inches",
+        "units": "days",
+        "metricUnits": "days",
+        "standardUnits": "days"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-75PCTL",
+        "name": "75th percentiles of monthly precipitation totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-50PCTL",
+        "name": "50th percentiles of monthly precipitation totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-PRCP-25PCTL",
+        "name": "25th percentiles of monthly precipitation totals",
+        "units": "inches",
+        "metricUnits": "mm",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-HTDD-NORMAL",
+        "name": "Long-term averages of monthly heating degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-HTDD-BASE60",
+        "name": "Long-term averages of monthly heating degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-HTDD-BASE57",
+        "name": "Long-term averages of monthly heating degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-HTDD-BASE55",
+        "name": "Long-term averages of monthly heating degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-HTDD-BASE50",
+        "name": "Long-term averages of monthly heating degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-HTDD-BASE45",
+        "name": "Long-term averages of monthly heating degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-HTDD-BASE40",
+        "name": "Long-term averages of monthly heating degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-TB5086",
+        "name": "Long-term averages of monthly growing degree days with truncated bases 50F and ",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-TB4886",
+        "name": "Long-term averages of monthly growing degree days with truncated bases 48F and ",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE72",
+        "name": "Long-term averages of monthly growing degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE70",
+        "name": "Long-term averages of monthly growing degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE65",
+        "name": "Long-term averages of monthly growing degree days with base 65F",
+        "units": "fahrenheit@65",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE60",
+        "name": "Long-term averages of monthly growing degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE57",
+        "name": "Long-term averages of monthly growing degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE55",
+        "name": "Long-term averages of monthly growing degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE50",
+        "name": "Long-term averages of monthly growing degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE45",
+        "name": "Long-term averages of monthly growing degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-GRDD-BASE40",
+        "name": "Long-term averages of monthly growing degree days with base 40F",
+        "units": "fahrenheit@40",
+        "metricUnits": "celsius@4.4",
+        "standardUnits": "fahrenheit@40"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-DUTR-STDDEV",
+        "name": "Long-term standard deviations of monthly diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-DUTR-NORMAL",
+        "name": "Long-term averages of monthly diurnal temperature range",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-NORMAL",
+        "name": "Long-term averages of monthly cooling degree days with base 65F",
+        "units": "fahrenheit",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-BASE72",
+        "name": "Long-term averages of monthly cooling degree days with base 72F",
+        "units": "fahrenheit@72",
+        "metricUnits": "celsius@22.2",
+        "standardUnits": "fahrenheit@72"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-BASE70",
+        "name": "Long-term averages of monthly cooling degree days with base 70F",
+        "units": "fahrenheit@70",
+        "metricUnits": "celsius@21.1",
+        "standardUnits": "fahrenheit@70"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-BASE60",
+        "name": "Long-term averages of monthly cooling degree days with base 60F",
+        "units": "fahrenheit@60",
+        "metricUnits": "celsius@15.6",
+        "standardUnits": "fahrenheit@60"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-BASE57",
+        "name": "Long-term averages of monthly cooling degree days with base 57F",
+        "units": "fahrenheit@57",
+        "metricUnits": "celsius@13.9",
+        "standardUnits": "fahrenheit@57"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-BASE55",
+        "name": "Long-term averages of monthly cooling degree days with base 55F",
+        "units": "fahrenheit@55",
+        "metricUnits": "celsius@12.8",
+        "standardUnits": "fahrenheit@55"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-BASE50",
+        "name": "Long-term averages of monthly cooling degree days with base 50F",
+        "units": "fahrenheit@50",
+        "metricUnits": "celsius@10.0",
+        "standardUnits": "fahrenheit@50"
+    },
+    {
+        "datasetId": "normals-monthly",
+        "id": "MLY-CLDD-BASE45",
+        "name": "Long-term averages of monthly cooling degree days with base 45F",
+        "units": "fahrenheit@45",
+        "metricUnits": "celsius@7.2",
+        "standardUnits": "fahrenheit@45"
+    }
+]

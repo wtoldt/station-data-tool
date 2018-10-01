@@ -1,0 +1,10 @@
+<mat-form-field class="w-100">
+  <input #dateInput matInput placeholder="Choose a date"
+      [matDatepicker]="picker" [formControl]="dateFormControl"
+      (focus)="onFocus()" (blur)="onBlur()" (keyup.enter)="dateInput.blur()"
+      (dateChange)="onDateChange($event)">
+
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+  <mat-hint *ngIf="inputFocused && dateHint">press enter to accept {{dateHint}}</mat-hint>
+</mat-form-field>
