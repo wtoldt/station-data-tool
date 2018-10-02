@@ -43,7 +43,7 @@ export class DailyDataTableComponent implements OnInit {
       .map(dt => [dt.id, dt] as [string, DataType]));
   }
 
-  updateData() {
+  updateData(): void {
     if (this._selectedStation && this._selectedStartDate && this._selectedEndDate) {
       this.data.next(undefined);
       this.http.get<DailySummariesObservation[]>(this.url, {params: this.makeHttpParams()})
@@ -52,6 +52,11 @@ export class DailyDataTableComponent implements OnInit {
           this.data.next(obs2);
         });
     }
+  }
+
+  setUnits(units: string): void {
+    this._units = units;
+    this.updateData();
   }
 
   makeHttpParams(): HttpParams {

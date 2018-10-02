@@ -5,7 +5,6 @@
     <mat-icon fontSet="fab" fontIcon="fa-github"></mat-icon>
   </button>
 </mat-toolbar>
-{{ selectedStation | json}} {{ selectedStartDate.format('YYYY-MM-DD') }} {{ selectedEndDate.format('YYYY-MM-DD') }} metric:{{ isMetric }}
 <app-parameter-toolbar
     [selectedStation]="selectedStation" [selectedStartDate]="selectedStartDate" [selectedEndDate]="selectedEndDate"
     (selectedStationChange)="selectedStation = $event"
@@ -18,14 +17,6 @@
       <ng-template matTabContent>
         <app-daily-data-table [selectedStation]="selectedStation" [selectedStartDate]="selectedStartDate" [selectedEndDate]="selectedEndDate">
         </app-daily-data-table>
-      </ng-template>
-    </mat-tab>
-    <mat-tab label="foo">
-      <ng-template matTabContent>
-        <mat-progress-bar mode="indeterminate" [hidden]="!loading"></mat-progress-bar>
-        <button (click)="foo()">foo!</button>
-        <app-station-data-table [availableColumns]="availableColumns" [data]="data"
-            [metric]="isMetric" (metricChange)="isMetric=$event"></app-station-data-table>
       </ng-template>
     </mat-tab>
   </mat-tab-group>

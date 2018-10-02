@@ -12,9 +12,9 @@
         <div class="row">
 
           <div class="col-sm-3 col-md-2 mb-2">
-            <mat-radio-group [value]="_metric" (change)="metricChange.emit($event.value)" clsas="mb-2">
-              <mat-radio-button [value]="true" color="primary" class="mr-3">Metric</mat-radio-button><br />
-              <mat-radio-button [value]="false" color="primary" >Standard</mat-radio-button>
+            <mat-radio-group [value]="_units" (change)="unitsChange.emit($event.value)" clsas="mb-2">
+              <mat-radio-button value="metric" color="primary" class="mr-3">Metric</mat-radio-button><br />
+              <mat-radio-button value="standard" color="primary" >Standard</mat-radio-button>
             </mat-radio-group>
             <br />
             <button mat-stroked-button color="primary" class="mb-2">All Data Types</button>

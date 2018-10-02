@@ -1,3 +1,3 @@
 <mat-progress-bar mode="indeterminate" [hidden]="(data | async)"></mat-progress-bar>
 
-<app-station-data-table [availableColumns]="availableColumns" [data]="data | async" [metric]="isMetric" (metricChange)="isMetric=$event"></app-station-data-table>
+<app-station-data-table [data]="data | async" [units]="_units" (unitsChange)="setUnits($event)"></app-station-data-table>

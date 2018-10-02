@@ -57,7 +57,8 @@ export class DatepickerComponent {
 
   onDateChange(event: MatDatepickerInputEvent<moment.Moment>): void {
     this.dateHint = undefined;
-    this.dateChange.emit(event.value);
+    if (event.value) {
+      this.dateChange.emit(event.value);
+    }
   }
-
 }

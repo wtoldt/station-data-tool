@@ -11,7 +11,7 @@ export class StationDataTableComponent implements OnInit {
   selectedColumns: string[] = StationObservationDataTypes.map(dt => dt.id);
   _columns: ColumnDef[];
   agApi: any;
-  _metric = false;
+  _units: string;
 
   public ghcndCoreDataTypes: DataType[] = [
     {
@@ -107,19 +107,17 @@ export class StationDataTableComponent implements OnInit {
   data: any;
 
   @Input()
-  set metric(metric: boolean) {
-    this._metric = metric;
+  set units(units: string) {
+    this._units = units;
     this.selectColumns();
   }
 
   @Output()
-  metricChange = new EventEmitter<boolean>();
+  unitsChange = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.selectedColumns);
-    this.selectColumns();
   }
 
   onGridReady(event: any): void {
@@ -148,10 +146,9 @@ export class StationDataTableComponent implements OnInit {
   }
 
   private selectColumns(): void {
-    const units = this._metric ? 'metric' : 'standard';
     this._columns = [...this.defaultStationDataTypes, ...this.ghcndCoreDataTypes]
       .filter(dt => dt.selected)
-      .map(dt => dt[`${units}ColumnDef`]);
+      .map(dt => dt[`${this._units}ColumnDef`]);
     console.log(this._columns);
   }
 
