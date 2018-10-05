@@ -1,0 +1,826 @@
+[
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WSFM",
+        "name": "Maximum Fastest Mile Wind Speed",
+        "units": "m/s",
+        "metricUnits": "m/s",
+        "standardUnits": "mile/h"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WSFG",
+        "name": "Peak Gust Wind Speed",
+        "units": "m/s",
+        "metricUnits": "m/s",
+        "standardUnits": "mile/h"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WSF5",
+        "name": "Maximum 5 Second Wind Speed",
+        "units": "m/s",
+        "metricUnits": "m/s",
+        "standardUnits": "mile/h"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WSF2",
+        "name": "Maximum 2 Minute Wind Speed",
+        "units": "m/s",
+        "metricUnits": "m/s",
+        "standardUnits": "mile/h"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WSF1",
+        "name": "Maximum 1 Minute Wind Speed",
+        "units": "m/s",
+        "metricUnits": "m/s",
+        "standardUnits": "mile/h"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WDMV",
+        "name": "Total wind movement over evaporation pan",
+        "units": "km",
+        "metricUnits": "km",
+        "standardUnits": "mile"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WDFM",
+        "name": "Direction of Maximum Fastest Mile Wind Speed",
+        "units": "degree",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WDFG",
+        "name": "Direction of Peak Gust Wind Speed",
+        "units": "degree",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WDF5",
+        "name": "Direction of Maximum 5 Second Wind Speed",
+        "units": "degree",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WDF2",
+        "name": "Direction of Maximum 2 Minute Wind Speed",
+        "units": "degree",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "WDF1",
+        "name": "Direction of Maximum 1 Minute Wind Speed",
+        "units": "degree",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "TSUN",
+        "name": "Total sunshine",
+        "units": "minute",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "TMIN",
+        "name": "Average Minimum Temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "TMAX",
+        "name": "Average Maximum Temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "TIME",
+        "name": "time of observation",
+        "units": "minutes since 1970-01-01 00:00:00Z",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "TAVG",
+        "name": "Average Average Temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "STATION",
+        "name": "Station Identifier",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "SNOW",
+        "name": "Total Monthly Snowfall",
+        "units": "mm",
+        "metricUnits": "mm",
+        "standardUnits": "in"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "PSUN",
+        "name": "Percent of possible sunshine",
+        "units": "%",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "PRCP",
+        "name": "Precipitation",
+        "units": "mm",
+        "metricUnits": "mm",
+        "standardUnits": "in"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MXPN",
+        "name": "Monthly mean maximum evaporation pan water temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX08",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX07",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX06",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX05",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX04",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX03",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX02",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MX01",
+        "name": "Monthly mean maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MNPN",
+        "name": "Monthly mean minimum evaporation pan water temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN08",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN07",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN06",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN05",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN04",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN03",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN02",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "MN01",
+        "name": "Monthly mean minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX08",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX07",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX06",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX05",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX04",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX03",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX02",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LX01",
+        "name": "Lowest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN08",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN07",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN06",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN05",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN04",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN03",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN02",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "LN01",
+        "name": "Lowest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX08",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX07",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX06",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX05",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX04",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX03",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX02",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HX01",
+        "name": "Highest maximum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HTDD",
+        "name": "Heating Degree Days",
+        "units": "celsius@18.3",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN08",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN07",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN06",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN05",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN04",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN03",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN02",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HN01",
+        "name": "Highest minimum soil temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "HDSD",
+        "name": "Heating Degree Days Season to TIME",
+        "units": "celsius@18.3",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF9",
+        "name": "Last freeze less than or equal to 16F (-8.9C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF8",
+        "name": "Last freeze less than or equal to 20F (-6.7C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF7",
+        "name": "Last freeze less than or equal to 24F (-4.4C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF6",
+        "name": "Last freeze less than or equal to 28F (-2.2C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF5",
+        "name": "Last freeze less than or equal to 32F (0C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF4",
+        "name": "First freeze less than or equal to 16F (-8.9C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF3",
+        "name": "First freeze less than or equal to 20F (-6.7C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF2",
+        "name": "First freeze less than or equal to 24F (-4.4C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF1",
+        "name": "First freeze less than or equal to 28F (-2.2C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "FZF0",
+        "name": "First freeze less than or equal to 32F (0C) of the year.",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "EVAP",
+        "name": "Total Evaporation",
+        "units": "mm",
+        "metricUnits": "mm",
+        "standardUnits": "in"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "EMXT",
+        "name": "Extreme maximum temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "EMXP",
+        "name": "Extreme maximum precipitation",
+        "units": "mm",
+        "metricUnits": "mm",
+        "standardUnits": "in"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "EMSN",
+        "name": "Extreme maximum snowfall",
+        "units": "mm",
+        "metricUnits": "mm",
+        "standardUnits": "in"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "EMSD",
+        "name": "Extreme maximum snow depth",
+        "units": "mm",
+        "metricUnits": "mm",
+        "standardUnits": "in"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "EMNT",
+        "name": "Extreme minimum temperature",
+        "units": "degC",
+        "metricUnits": "degC",
+        "standardUnits": "degF"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DX90",
+        "name": "Number days with maximum temperature greater than 90F (32.2C)",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DX70",
+        "name": "Number days with maximum temperature greater than 70F (21.1C)",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DX32",
+        "name": "Number days with maximum temperature less than 32F (0C)",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DT32",
+        "name": "Number days with minimum temperature less than 32F (0C)",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DT00",
+        "name": "Number days with minimum temperature less than 0F (-17.6C)",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DSNW",
+        "name": "Number of days with greater than or equal to 1.0 inch (25.4mm) of snowfall",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DSND",
+        "name": "Number days with greater than 1.0 inch (25.4mm) of snow depth",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DP1X",
+        "name": "Number days with greater than 1.00 inch (25.4mm) of precipitation",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DP10",
+        "name": "Number days with greater than 1.0 inch (25.4mm) of precipitation",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DP05",
+        "name": "Number days with greater than 0.5 inch (12.7mm) of precipitation",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DP01",
+        "name": "Number days with greater than 0.1 inch (2.5mm) of precipitation",
+        "units": "day",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "DATE",
+        "name": "Date",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "CLDD",
+        "name": "Cooling Degree Days",
+        "units": "celsius@18.3",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "CDSD",
+        "name": "Cooling Degree Days Season to Date",
+        "units": "celsius@18.3",
+        "metricUnits": "celsius@18.3",
+        "standardUnits": "fahrenheit@65"
+    },
+    {
+        "datasetId": "global-summary-of-the-year",
+        "id": "AWND",
+        "name": "Average Wind Speed for the month",
+        "units": "m/s",
+        "metricUnits": "m/s",
+        "standardUnits": "mile/h"
+    }
+]

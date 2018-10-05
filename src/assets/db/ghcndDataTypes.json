@@ -1,0 +1,1122 @@
+[
+    {
+        "datasetId": "daily-summaries",
+        "id": "ACMC",
+        "name": "Average cloudiness midnight to midnight from 30-second ceilometer data",
+        "units": "%",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "ACMH",
+        "name": "Average cloudiness midnight to midnight from manual observations",
+        "units": "%",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "ACSC",
+        "name": "Average cloudiness sunrise to sunset from 30-second ceilometer data",
+        "units": "%",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "ACSH",
+        "name": "Average cloudiness sunrise to sunset from manual observations",
+        "units": "%",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "AWND",
+        "name": "Average daily wind speed",
+        "units": "meters per second",
+        "metricUnits": "meters per second",
+        "standardUnits": "miles per hour"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "DAEV",
+        "name": "Number of days included in the multiday evaporation total (MDEV)",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "DAPR",
+        "name": "Number of days included in the multiday precipitation total (MDPR)",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "DASF",
+        "name": "Number of days included in the multiday snow fall total (MDSF)",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "DATN",
+        "name": "Number of days included in the multiday minimum temperature (MDTN)",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "DATX",
+        "name": "Number of days included in the multiday maximum temperature (MDTX)",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "DAWM",
+        "name": "Number of days included in the multiday wind movement (MDWM)",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "DWPR",
+        "name": "Number of days with non-zero precipitation included in multiday precipitation t",
+        "units": "days",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "EVAP",
+        "name": "Evaporation of water from evaporation pan",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "FMTM",
+        "name": "Time of fastest mile or fastest 1-minute wind",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "FRGB",
+        "name": "Base of frozen ground layer",
+        "units": "centimeters",
+        "metricUnits": "centimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "FRGT",
+        "name": "Top of frozen ground layer",
+        "units": "centimeters",
+        "metricUnits": "centimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "FRTH",
+        "name": "Thickness of frozen ground layer",
+        "units": "centimeters",
+        "metricUnits": "centimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "GAHT",
+        "name": "Difference between river and gauge height",
+        "units": "centimeters",
+        "metricUnits": "centimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MDEV",
+        "name": "Multiday evaporation total (use with DAEV)",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MDPR",
+        "name": "Multiday precipitation total (use with DAPR and DWPR, if available)",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MDSF",
+        "name": "Multiday snowfall total",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MDTN",
+        "name": "Multiday minimum temperature (use with DATN)",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MDTX",
+        "name": "Multiday maximum temperature (use with DATX)",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MDWM",
+        "name": "Multiday wind movement",
+        "units": "kilometers",
+        "metricUnits": "kilometers",
+        "standardUnits": "miles"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MNPN",
+        "name": "Daily minimum temperature of water in an evaporation pan (tenths of degrees C)",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "MXPN",
+        "name": "Daily maximum temperature of water in an evaporation pan (tenths of degrees C)",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "PGTM",
+        "name": "Peak gust time (hours and minutes, i.e., HHMM)",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "PRCP",
+        "name": "Precipitation",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "PSUN",
+        "name": "Daily percent of possible sunshine",
+        "units": "percent",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN01",
+        "name": "Minimum soil temperature with unknown cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN02",
+        "name": "Minimum soil temperature with unknown cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN03",
+        "name": "Minimum soil temperature with unknown cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN11",
+        "name": "Minimum soil temperature with grass cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN12",
+        "name": "Minimum soil temperature with grass cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN13",
+        "name": "Minimum soil temperature with grass cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN14",
+        "name": "Minimum soil temperature with grass cover at 50 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN21",
+        "name": "Minimum soil temperature with fallow cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN22",
+        "name": "Minimum soil temperature with fallow cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN23",
+        "name": "Minimum soil temperature with fallow cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN31",
+        "name": "Minimum soil temperature with bare ground cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN32",
+        "name": "Minimum soil temperature with bare ground cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN33",
+        "name": "Minimum soil temperature with bare ground cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN34",
+        "name": "Minimum soil temperature with bare ground cover at 50 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN35",
+        "name": "Minimum soil temperature with bare ground cover at 100 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN36",
+        "name": "Minimum soil temperature with bare ground cover at 150 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN51",
+        "name": "Minimum soil temperature with sod cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN52",
+        "name": "Minimum soil temperature with sod cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN53",
+        "name": "Minimum soil temperature with sod cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN54",
+        "name": "Minimum soil temperature with sod cover at 50 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN55",
+        "name": "Minimum soil temperature with sod cover at 100 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN56",
+        "name": "Minimum soil temperature with sod cover at 150 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN61",
+        "name": "Minimum soil temperature with straw multch cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN72",
+        "name": "Minimum soil temperature with grass muck cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN81",
+        "name": "Minimum soil temperature with bare muck cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN82",
+        "name": "Minimum soil temperature with bare muck cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SN83",
+        "name": "Minimum soil temperature with bare muck cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SNOW",
+        "name": "Snowfall (mm)",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SNWD",
+        "name": "Snow depth (mm)",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX01",
+        "name": "Maximum soil temperature with unknown cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX02",
+        "name": "Maximum soil temperature with unknown cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX03",
+        "name": "Maximum soil temperature with unknown cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX11",
+        "name": "Maximum soil temperature with grass cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX12",
+        "name": "Maximum soil temperature with grass cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX13",
+        "name": "Maximum soil temperature with grass cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX14",
+        "name": "Maximum soil temperature with grass cover at 50 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX15",
+        "name": "Maximum soil temperature with grass cover at 100 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX17",
+        "name": "Maximum soil temperature with grass cover at 180 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX21",
+        "name": "Maximum soil temperature with fallow cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX22",
+        "name": "Maximum soil temperature with fallow cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX23",
+        "name": "Maximum soil temperature with fallow cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX31",
+        "name": "Maximum soil temperature with bare ground cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX32",
+        "name": "Maximum soil temperature with bare ground cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX33",
+        "name": "Maximum soil temperature with bare ground cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX34",
+        "name": "Maximum soil temperature with bare ground cover at 50 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX35",
+        "name": "Maximum soil temperature with bare ground cover at 100 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX36",
+        "name": "Maximum soil temperature with bare ground cover at 150 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX51",
+        "name": "Maximum soil temperature with sod cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX52",
+        "name": "Maximum soil temperature with sod cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX53",
+        "name": "Maximum soil temperature with sod cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX54",
+        "name": "Maximum soil temperature with sod cover at 50 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX55",
+        "name": "Maximum soil temperature with sod cover at 100 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX56",
+        "name": "Maximum soil temperature with sod cover at 150 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX61",
+        "name": "Maximum soil temperature with straw multch cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX72",
+        "name": "Maximum soil temperature with grass muck cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX81",
+        "name": "Maximum soil temperature with bare muck cover at 5 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX82",
+        "name": "Maximum soil temperature with bare muck cover at 10 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "SX83",
+        "name": "Maximum soil temperature with bare muck cover at 20 cm depth",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "TAVG",
+        "name": "Average temperature",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "THIC",
+        "name": "Thickness of ice on water",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "TMAX",
+        "name": "Maximum temperature (tenths of degrees C)",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "TMIN",
+        "name": "Minimum temperature (tenths of degrees C)",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "TOBS",
+        "name": "Temperature at the time of observation (tenths of degrees C)",
+        "units": "celsius",
+        "metricUnits": "celsius",
+        "standardUnits": "fahrenheit"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "TSUN",
+        "name": "Daily total sunshine (minutes)",
+        "units": "minutes",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WDF1",
+        "name": "Direction of fastest 1-minute wind (degrees)",
+        "units": "degrees",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WDF2",
+        "name": "Direction of fastest 2-minute wind (degrees)",
+        "units": "degrees",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WDF5",
+        "name": "Direction of fastest 5-second wind (degrees)",
+        "units": "degrees",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WDFG",
+        "name": "Direction of peak wind gust (degrees)",
+        "units": "degrees",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WDFI",
+        "name": "Direction of highest instantaneous wind (degrees)",
+        "units": "degrees",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WDFM",
+        "name": "Fastest mile wind direction (degrees)",
+        "units": "degrees",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WDMV",
+        "name": "24-hour wind movement",
+        "units": "kilometers",
+        "metricUnits": "kilometers",
+        "standardUnits": "miles"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WESD",
+        "name": "Water equivalent of snow on the ground",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WESF",
+        "name": "Water equivalent of snowfall",
+        "units": "millimeters",
+        "metricUnits": "millimeters",
+        "standardUnits": "inches"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WSF1",
+        "name": "Fastest 1-minute wind speed",
+        "units": "meters per second",
+        "metricUnits": "meters per second",
+        "standardUnits": "miles per hour"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WSF2",
+        "name": "Fastest 2-minute wind speed",
+        "units": "meters per second",
+        "metricUnits": "meters per second",
+        "standardUnits": "miles per hour"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WSF5",
+        "name": "Fastest 5-second wind speed",
+        "units": "meters per second",
+        "metricUnits": "meters per second",
+        "standardUnits": "miles per hour"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WSFG",
+        "name": "Peak guest wind speed",
+        "units": "meters per second",
+        "metricUnits": "meters per second",
+        "standardUnits": "miles per hour"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WSFI",
+        "name": "Highest instantaneous wind speed",
+        "units": "meters per second",
+        "metricUnits": "meters per second",
+        "standardUnits": "miles per hour"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WSFM",
+        "name": "Fastest mile wind speed",
+        "units": "meters per second",
+        "metricUnits": "meters per second",
+        "standardUnits": "miles per hour"
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT01",
+        "name": "Fog, ice fog, or freezing fog (may include heavy fog)",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT02",
+        "name": "Heavy fog or heaving freezing fog (not always distinguished from fog)",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT03",
+        "name": "Thunder",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT04",
+        "name": "Ice pellets, sleet, snow pellets, or small hail",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT05",
+        "name": "Hail (may include small hail)",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT06",
+        "name": "Glaze or rime",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT07",
+        "name": "Dust, volcanic ash, blowing dust, blowing sand, or blowing obstruction",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT08",
+        "name": "Smoke or haze",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT09",
+        "name": "Blowing or drifting snow",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT10",
+        "name": "Tornado, waterspout, or funnel cloud",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT11",
+        "name": "High or damaging winds",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT12",
+        "name": "Blowing spray",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT13",
+        "name": "Mist",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT14",
+        "name": "Drizzle",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT15",
+        "name": "Freezing drizzle",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT16",
+        "name": "Rain (may include freezing rain, drizzle, and freezing drizzle)",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT17",
+        "name": "Freezing rain",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT18",
+        "name": "Snow, snow pellets, snow grains, or ice crystals",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT19",
+        "name": "Unknown source of precipitation",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT21",
+        "name": "Ground fog",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WT22",
+        "name": "Ice fog or freezing fog",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WV01",
+        "name": "Fog, ice fog, or freezing fog (may include heavy fog)",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WV03",
+        "name": "Thunder",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WV07",
+        "name": "Ash, dust, sand, or other blowing obstruction",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WV18",
+        "name": "Snow or ice crystals",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "WV20",
+        "name": "Rain or snow shower",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "alt",
+        "name": "the elevation of a geophysical point of observation relative to Mean Sea Level ",
+        "units": "meters",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "lat",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION latitude coordinate",
+        "units": "degrees_north",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "lon",
+        "name": "GEOPHYSICAL-POINT-OBSERVATION longitude coordinate",
+        "units": "degrees_east",
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "station_info",
+        "name": "name of the station",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "station_name",
+        "name": "station identification code",
+        "units": null,
+        "metricUnits": null,
+        "standardUnits": null
+    },
+    {
+        "datasetId": "daily-summaries",
+        "id": "time",
+        "name": "time of observation",
+        "units": "minutes since 1970-01-01 00:00:00Z",
+        "metricUnits": null,
+        "standardUnits": null
+    }
+]
