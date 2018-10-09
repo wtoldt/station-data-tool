@@ -17,9 +17,9 @@
               <mat-radio-button value="standard" color="primary" >Standard</mat-radio-button>
             </mat-radio-group>
             <br />
-            <button mat-stroked-button color="primary" class="mb-2">All Data Types</button>
+            <button mat-stroked-button color="primary" (click)="openAllDataTypesModal()" class="mb-2">All Data Types</button>
             <br />
-            <button mat-stroked-button color="primary"(click)="agApi.sizeColumnsToFit()">Autosize Columns</button>
+            <button mat-stroked-button color="primary" (click)="agApi.sizeColumnsToFit()">Autosize Columns</button>
           </div>
 
           <div class="col">

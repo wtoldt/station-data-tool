@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { DataType, StationObservationDataTypes, ColumnDef } from '../classes';
+import { MatDialog } from '@angular/material';
+import { AllDatatypesDialogComponent } from './all-datatypes-dialog/all-datatypes-dialog.component';
 
 @Component({
   selector: 'app-station-data-table',
@@ -31,7 +33,7 @@ export class StationDataTableComponent implements OnInit {
   @Output()
   unitsChange = new EventEmitter<string>();
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit() {
   }
@@ -61,11 +63,14 @@ export class StationDataTableComponent implements OnInit {
     return [...this.defaultStationDataTypes, ...this.coreDataTypes].filter(dt => dt.selected).map(dt => dt.id).join(', ');
   }
 
+  openAllDataTypesModal(): void {
+    this.dialog.open(AllDatatypesDialogComponent);
+  }
+
   private selectColumns(): void {
     this._columns = [...this.defaultStationDataTypes, ...this.coreDataTypes]
       .filter(dt => dt.selected)
       .map(dt => dt[`${this._units}ColumnDef`]);
-    console.log(this._columns);
   }
 
 }

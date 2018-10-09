@@ -12,9 +12,11 @@ import { MaterialModule } from './material.module';
 import { DatepickerComponent } from './parameter-toolbar/datepicker/datepicker.component';
 import { ParameterToolbarComponent } from './parameter-toolbar/parameter-toolbar.component';
 import { StationDataTableComponent } from './station-data-table/station-data-table.component';
+import { AllDatatypesDialogComponent } from './station-data-table/all-datatypes-dialog/all-datatypes-dialog.component';
 
 @NgModule({
   declarations: [
+    AllDatatypesDialogComponent,
     AppComponent,
     DailyDataTableComponent,
     DatepickerComponent,
@@ -33,6 +35,7 @@ import { StationDataTableComponent } from './station-data-table/station-data-tab
     MaterialModule,
     ReactiveFormsModule
   ],
+  entryComponents: [AllDatatypesDialogComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
