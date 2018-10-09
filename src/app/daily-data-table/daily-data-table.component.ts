@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import * as moment from 'moment';
 import { Station, DataType } from '../classes';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { DailySummariesCoreDataTypes, DailySummariesObservation, DailySummariesDataTypes, DailySummariesObservation } from '../data-classes/daily-summaries';
+import { DailySummariesCoreDataTypes, DailySummariesDataTypes, DailySummariesObservation } from '../data-classes/daily-summaries';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
