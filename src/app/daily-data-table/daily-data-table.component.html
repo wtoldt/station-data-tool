@@ -1,3 +1,7 @@
 <mat-progress-bar mode="indeterminate" [hidden]="(data | async)"></mat-progress-bar>
 
-<app-station-data-table [data]="data | async" [units]="_units" (unitsChange)="setUnits($event)"></app-station-data-table>
+<app-station-data-table [data]="data | async" [units]="_units"
+    [coreDataTypes]="dailySummariesCoreDataTypes"
+    [allDataTypes]="dailySummariesDataTypes"
+    (unitsChange)="setUnits($event)">
+</app-station-data-table>

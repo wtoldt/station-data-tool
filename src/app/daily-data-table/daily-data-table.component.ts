@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import * as moment from 'moment';
 import { Station, DataType } from '../classes';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { DailySummariesCoreDataTypes, DailySummariesObservation } from '../data-classes/daily-summaries';
+import { DailySummariesCoreDataTypes, DailySummariesObservation, DailySummariesDataTypes, DailySummariesObservation } from '../data-classes/daily-summaries';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -12,7 +12,9 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class DailyDataTableComponent implements OnInit {
   dailySummariesCoreDataTypes = [...DailySummariesCoreDataTypes];
-  dailySummariesCoreDataTypesMap;
+  dailySummariesCoreDataTypesMap: Map<string, DataType>;
+  dailySummariesDataTypes = [...DailySummariesDataTypes];
+  dailySummariesDataTypesMap: Map<string, DataType>;
   _selectedStation: Station;
   _selectedStartDate: moment.Moment;
   _selectedEndDate: moment.Moment;
@@ -39,7 +41,10 @@ export class DailyDataTableComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.dailySummariesCoreDataTypesMap = new Map<String, DataType>(this.dailySummariesCoreDataTypes
+    this.dailySummariesCoreDataTypesMap = new Map<string, DataType>(this.dailySummariesCoreDataTypes
+      .map(dt => [dt.id, dt] as [string, DataType]));
+
+    this.dailySummariesDataTypesMap = new Map<string, DataType>(this.dailySummariesDataTypes
       .map(dt => [dt.id, dt] as [string, DataType]));
   }
 
@@ -48,8 +53,8 @@ export class DailyDataTableComponent implements OnInit {
       this.data.next(undefined);
       this.http.get<DailySummariesObservation[]>(this.url, {params: this.makeHttpParams()})
         .toPromise().then(obs => {
-          const obs2 = obs.map(ob => ({...ob, PRCP: Number(ob.PRCP)}));
-          this.data.next(obs2);
+          const correctedObs = obs.map(ob => this.convertToNumber(ob));
+          this.data.next(correctedObs);
         });
     }
   }
@@ -69,5 +74,19 @@ export class DailyDataTableComponent implements OnInit {
       .append('format', 'json');
   }
 
+  private convertToNumber(ob: DailySummariesObservation): DailySummariesObservation {
+    let observation = {} as DailySummariesObservation
+
+    Object.entries(ob).forEach(entry => {
+      const dataType = this.dailySummariesDataTypesMap.get(entry[0]);      
+      if (dataType && dataType.metricUnits) {
+        observation[entry[0]] = Number(entry[1]);
+      } else {
+        observation[entry[0]] = entry[1];
+      }
+    });
+
+    return observation;
+  }
 
 }

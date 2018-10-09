@@ -34,7 +34,7 @@
             </mat-chip-list>
             <mat-divider class="my-2"></mat-divider>
             <mat-chip-list>
-                <mat-chip *ngFor="let dt of ghcndCoreDataTypes"
+                <mat-chip *ngFor="let dt of coreDataTypes"
                 color="primary" [matTooltip]="dt.name" matTooltipShowDelay="250"
                 [selected]="dt.selected"
                 (click)="toggleSelectedDatasetColumn(dt)"
