@@ -1,9 +1,11 @@
 <mat-toolbar color="primary">
   <span>Station Data Tool</span>
   <span style="flex: 1 1 auto"></span>
-  <button mat-icon-button>
-    <mat-icon fontSet="fab" fontIcon="fa-github"></mat-icon>
-  </button>
+  <a href="https://github.com/wtoldt/station-data-tool" target="_blank">
+    <button mat-icon-button>
+      <mat-icon fontSet="fab" fontIcon="fa-github" class="text-white"></mat-icon>
+    </button>
+  </a>
 </mat-toolbar>
 <app-parameter-toolbar
     [selectedStation]="selectedStation" [selectedStartDate]="selectedStartDate" [selectedEndDate]="selectedEndDate"
