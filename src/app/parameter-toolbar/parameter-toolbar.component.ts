@@ -50,7 +50,7 @@ export class ParameterToolbarComponent implements OnInit {
     this.stationInput = new FormControl(this._selectedStation);
     this.stationInput.valueChanges.subscribe(value => {
       // tslint:disable-next-line:max-line-length
-      this.suggestedStations = this.http.get<{results: Station[]}>(`https://www.ncdc.noaa.gov/access-search-service/api/v1/autocomplete?text=${value}&field=station&dataset=daily-summaries`).pipe(
+      this.suggestedStations = this.http.get<{results: Station[]}>(`https://www.ncei.noaa.gov/access/services/search/v1/autocomplete?text=${value}&field=station&dataset=daily-summaries`).pipe(
         map(response => response.results)
       );
     });

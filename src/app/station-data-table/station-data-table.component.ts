@@ -17,7 +17,7 @@ export class StationDataTableComponent implements OnInit {
 
   @Input()
   coreDataTypes: DataType[];
-  
+
   @Input()
   allDataTypes: DataType[];
 

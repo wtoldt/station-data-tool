@@ -20,7 +20,7 @@ export class DailyDataTableComponent implements OnInit {
   _selectedEndDate: moment.Moment;
   _units = 'metric';
   data = new BehaviorSubject<DailySummariesObservation[]>(undefined);
-  url = 'https://www.ncdc.noaa.gov/access-data-service/api/v1/data';
+  url = 'https://www.ncei.noaa.gov/access/services/data/v1';
 
   @Input()
   set selectedStation(station: Station) {
@@ -75,10 +75,10 @@ export class DailyDataTableComponent implements OnInit {
   }
 
   private convertToNumber(ob: DailySummariesObservation): DailySummariesObservation {
-    let observation = {} as DailySummariesObservation
+    const observation = {} as DailySummariesObservation;
 
     Object.entries(ob).forEach(entry => {
-      const dataType = this.dailySummariesDataTypesMap.get(entry[0]);      
+      const dataType = this.dailySummariesDataTypesMap.get(entry[0]);
       if (dataType && dataType.metricUnits) {
         observation[entry[0]] = Number(entry[1]);
       } else {
